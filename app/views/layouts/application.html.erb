@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Robby Time</title>
+  <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= yield %>
+  <%= javascript_include_tag 'https://code.jquery.com/jquery-1.11.3.min.js' %>
+  <%= javascript_include_tag 'application' %>
+</body>
+</html>

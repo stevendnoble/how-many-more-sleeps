@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row full-height">
+    <div class="col-md-6">
+      <div class="title text-center white">
+        <%= link_to robby_dates_path do %>
+          <% if @days_left > 0 %>
+            <%= @days_left %> more sleeps!
+          <% else %>
+            We need to set up another cuddle date!
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
